@@ -14,7 +14,7 @@ This project presents a comprehensive **statistical analysis** and **time series
 
 ### 1. Exploratory Data Analysis (EDA)
 - **Correlation Heatmap**: Generated visualizations to explore relationships between features such as `Global Horizontal Irradiance (GHI)`, `Direct Normal Irradiance (DNI)`, `Temperature`, and `Solar Zenith Angle`.
-- Key trends and relationships, such as correlations between `DNI` and solar energy output, were identified to inform the selection of predictive features for model development.
+- Key trends and relationships were identified to inform the selection of predictive features for model development.
 
 ### 2. Factor Analysis
 - **Bartlett’s Test of Sphericity** and **Kaiser-Meyer-Olkin (KMO) Test** were conducted to evaluate data suitability for factor analysis.
@@ -37,7 +37,8 @@ This project presents a comprehensive **statistical analysis** and **time series
    The SARIMA model, which accounts for seasonality, was particularly useful for capturing daily and yearly cyclic patterns. 
   
 - **Facebook Prophet**: 
-  - Employed Facebook Prophet for time series forecasting due to its robustness in handling missing data and its ability to model trends and seasonality explicitly. The model’s additive seasonality was ideal for capturing both daily and yearly patterns. **Hyperparameter tuning** was conducted to optimize seasonal resolution and trend flexibility.
+  - Employed Facebook Prophet for time series forecasting due to its robustness in handling missing data and its ability to model trends and 
+    seasonality explicitly. The model’s additive seasonality was ideal for capturing both daily and yearly patterns.
   
 - **LSTM (Long Short-Term Memory) and GRU (Gated Recurrent Unit)**:
   - Implemented deep learning models designed to capture long-term dependencies and sequential relationships in the time series data. Both LSTM and GRU were trained on the temporal features of solar irradiance to predict future values. Model configuration involved using time-step lags and multiple layers to improve the model’s ability to capture complex patterns in the time series.
