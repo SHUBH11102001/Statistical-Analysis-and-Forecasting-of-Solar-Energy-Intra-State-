@@ -58,3 +58,5 @@ This project presents a comprehensive **statistical analysis** and **time series
 ## Conclusion
 This project provides a robust framework for understanding and forecasting solar energy generation using a combination of traditional statistical models and advanced deep learning techniques. The insights gained from the time series analysis and the accurate forecasts can be leveraged for optimizing intra-state solar energy generation strategies. Future work could explore real-time integration of weather data for dynamic forecasting and experiment with hybrid models to enhance predictive performance.
 
+## Contact
+Created by `Shubh Nema`. Feel free to contact me at shubhnema617@gmail.com for any questions or feedback.
